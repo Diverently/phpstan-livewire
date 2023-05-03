@@ -1,7 +1,7 @@
 {
     "name": "diverently/phpstan-livewire",
     "description": "Recognize Livewire computed properties",
-    "type": "phpstan-exenstion",
+    "type": "phpstan-extension",
     "require": {
         "phpstan/phpstan": "^1.10"
     },
@@ -15,5 +15,15 @@
             "name": "Robert Cordes",
             "email": "robert@diverently.com"
         }
-    ]
+    ],
+    "extra": {
+        "phpstan": {
+            "includes": [
+                "extension.neon"
+            ]
+        }
+    },
+    "require-dev": {
+        "livewire/livewire": "^2.12"
+    }
 }

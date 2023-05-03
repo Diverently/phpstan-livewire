@@ -1,0 +1,5 @@
+services:
+-
+    class: Diverently\PhpstanLivewire\LivewireAccessorExtension
+    tags:
+        - phpstan.broker.propertiesClassReflectionExtension
