@@ -62,7 +62,7 @@ final class LivewireAccessorExtension implements PropertiesClassReflectionExtens
             /** @var GenericObjectType $returnType */
             $returnType = ParametersAcceptorSelector::selectSingle($methodReflection->getVariants())->getReturnType();
 
-            return new ModelProperty(
+            return new LivewireProperty(
                 $classReflection,
                 $returnType->getTypes()[0],
                 $returnType->getTypes()[1]
@@ -71,7 +71,7 @@ final class LivewireAccessorExtension implements PropertiesClassReflectionExtens
 
         $method = $classReflection->getNativeMethod('get'.Str::studly($propertyName).'Property');
 
-        return new ModelProperty(
+        return new LivewireProperty(
             $classReflection,
             $method->getVariants()[0]->getReturnType(),
             $method->getVariants()[0]->getReturnType()
