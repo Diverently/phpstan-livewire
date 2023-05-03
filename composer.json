@@ -1,0 +1,19 @@
+{
+    "name": "diverently/phpstan-livewire",
+    "description": "Recognize Livewire computed properties",
+    "type": "phpstan-exenstion",
+    "require": {
+        "phpstan/phpstan": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Diverently\\PhpstanLivewire\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Robert Cordes",
+            "email": "robert@diverently.com"
+        }
+    ]
+}
