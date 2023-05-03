@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Diverently\Phpstan;
+namespace Diverently\PhpstanLivewire;
 
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Support\Str;
