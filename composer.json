@@ -2,6 +2,7 @@
     "name": "diverently/phpstan-livewire",
     "description": "Recognize Livewire computed properties",
     "type": "phpstan-extension",
+    "license": "MIT",
     "require": {
         "phpstan/phpstan": "^1.10"
     },
