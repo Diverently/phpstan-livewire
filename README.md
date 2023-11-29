@@ -10,4 +10,4 @@ composer require diverently/phpstan-livewire --dev
 Then add the following to your phpstan.neon:
 ```
 includes:
-    ./vendor/diverently/phpstan-livewire/extension.neon
+    - ./vendor/diverently/phpstan-livewire/extension.neon
