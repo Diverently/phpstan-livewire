@@ -4,7 +4,7 @@ Recognize Livewire computed properties
 ### Installation
 First install the package via composer:
 ```
-composer require diverently/phpstan-livewire
+composer require diverently/phpstan-livewire --dev
 ```
 
 Then add the following to your phpstan.neon:
